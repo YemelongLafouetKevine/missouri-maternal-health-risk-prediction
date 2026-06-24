@@ -12,7 +12,6 @@ This project investigates predictors of adverse maternal and infant health outco
 
 ## Data Sources
 
-- Missouri Vital Statistics
 - American Community Survey (ACS)
 - County Health Rankings & Roadmaps
 - CDC WONDER
