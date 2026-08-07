@@ -1,0 +1,11 @@
+Variable,Importance
+medicaid_rate,0.16824672596898124
+smoking_rate,0.15752980714238235
+low_education_rate,0.15293719700200306
+early_prenatal_rate,0.14880939677152483
+physical_inactivity_rate,0.11049728362908826
+bachelors_plus_rate,0.06439094501074653
+uninsured_rate,0.061214947392868375
+median_income,0.048062796760942016
+unemployment_rate,0.04568271775288878
+pcp_ratio,0.04262818256857457
