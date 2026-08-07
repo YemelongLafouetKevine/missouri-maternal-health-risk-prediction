@@ -115,5 +115,4 @@ This project demonstrates how publicly available maternal health and community-l
 Master of Science in Health Data Science  
 Saint Louis University
 
-Saint Louis University
 
