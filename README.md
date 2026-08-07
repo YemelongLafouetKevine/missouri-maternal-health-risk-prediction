@@ -1,60 +1,56 @@
-# Predicting Maternal Health Risks and Adverse Birth Outcomes in Missouri
+# Predicting Adverse Birth Outcomes in Missouri Using County-Level Maternal Health Indicators, Social Determinants of Health, and Machine Learning
 
 ## Overview
 
-This project investigates predictors of adverse maternal and infant health outcomes in Missouri using statewide birth records, social determinants of health, and machine learning approaches.
+Preterm birth is one of the leading causes of infant morbidity and mortality in the United States. This project investigates whether publicly available county-level maternal health indicators, social determinants of health, and community health measures can be used to predict preterm birth across Missouri. Statistical and machine learning models were developed to support county-level maternal health surveillance and public health planning.
 
-## Research Questions
+## Objectives
+- Predict county-level preterm birth rates.
+- Identify counties at elevated risk for preterm birth.
+- Compare statistical and machine learning models.
+- Identify the most influential county-level predictors.
+- Demonstrate the value of publicly available data for maternal health surveillance.
 
-1. Can demographic, socioeconomic, and clinical factors predict preterm birth?
-2. Can these factors predict low birth weight?
-3. Which predictors contribute most strongly to adverse birth outcomes?
 
 ## Data Sources
 
+- Missouri Birth MICA
 - American Community Survey (ACS)
-- County Health Rankings & Roadmaps
-- CDC WONDER
-
-## Methods
-
-- Data cleaning and integration
-- Exploratory data analysis
-- Feature engineering
-- Random Forest
-- XGBoost
-- Logistic Regression
-- Cross-validation
+- County Health Rankings & Roadmaps (CHR&R)
 
 ## Outcomes
 
 - Preterm birth
-- Low birth weight
+- High-risk Preterm birth
+
+## Methods
+The datasets were cleaned, integrated, and analyzed using Python. Recursive Feature Elimination (RFE) was used for feature selection. Multiple regression and classification models were evaluated using grouped five-fold cross-validation.
+
+## Results
+## Best Regression Model
+Linear Regression
+RMSE: 2.34
+MAE: 1.78
+R²: 0.085
+## Best Classification Model
+Logistic Regression
+ROC-AUC: 0.673
+Recall: 0.562
+F1-score: 0.431
+## Most Important Predictors
+Medicaid-covered births
+Low educational attainment
+Maternal smoking
+Early prenatal care
+Adult obesity
+Physical inactivity
+Median household income
 
 ## Author
 
 Lafouet Kevine Yemelong
+
+Master of Science in Health Data Science
+
 Saint Louis University
-Health Data Science Program
-
-
-## Project Pitch
-## Hook
-Adverse birth outcomes such as preterm birth and low birth weight remain major public health concerns in Missouri, contributing to infant morbidity, mortality, and healthcare costs. Understanding which maternal, clinical, and social factors place pregnancies at greater risk can help inform targeted interventions and improve maternal and child health outcomes.
-
-## Research Question
-Can demographic, socioeconomic, clinical, and pregnancy-related factors be used to predict maternal health risks and adverse birth outcomes among Missouri mothers?
-
-## Methods
-This project integrates publicly available data from CDC WONDER Natality Data, the American Community Survey (ACS), and County Health Rankings. County-level birth outcome data will be combined with measures of maternal health, prenatal care, socioeconomic status, healthcare access, and community characteristics. Statistical methods, including logistic regression, and machine learning approaches such as Random Forest and XGBoost, will be used to identify important predictors and develop predictive models for adverse birth outcomes.
-
-## Expected Findings
-I expect maternal smoking, hypertension, diabetes, inadequate prenatal care, lower educational attainment, poverty, and limited healthcare access to be associated with higher rates of preterm birth and low birth weight. Machine learning models are expected to improve the identification of high-risk pregnancies by capturing complex interactions among risk factors.
-
-## So what?
-This project aims to provide evidence that can support earlier identification of high-risk pregnancies and guide public health interventions across Missouri. Findings may help healthcare providers, public health agencies, and policymakers better allocate resources to populations most at risk for adverse maternal and infant outcomes.
-
-
-
-
 
