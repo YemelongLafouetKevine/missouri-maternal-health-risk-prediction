@@ -6,7 +6,7 @@ This capstone project investigates whether publicly available county-level mater
 
 By integrating multiple statewide datasets and applying statistical and machine learning techniques, this project demonstrates how data science can support maternal health surveillance and inform evidence-based public health decision-making.
 
----
+
 
 ## Project Objectives
 
@@ -16,7 +16,7 @@ By integrating multiple statewide datasets and applying statistical and machine 
 - Identify the most important county-level predictors of preterm birth.
 - Demonstrate the use of publicly available data for population health surveillance.
 
----
+
 
 ## Data Sources
 
@@ -26,7 +26,7 @@ The analysis integrates three publicly available datasets:
 - **American Community Survey (ACS)** – Socioeconomic and demographic indicators
 - **County Health Rankings & Roadmaps (CHR&R)** – Community health and healthcare access measures
 
----
+
 
 ## Methods
 
@@ -41,7 +41,7 @@ The project workflow included:
 - Geographic visualization
 - Feature importance analysis
 
----
+
 
 ## Key Results
 
@@ -71,7 +71,7 @@ The project workflow included:
 - Poverty
 - Uninsured population
 
----
+
 
 ## Repository Structure
 
@@ -87,7 +87,7 @@ The project workflow included:
 └── requirements.txt
 ```
 
----
+
 
 ## Technologies
 
@@ -100,13 +100,13 @@ The project workflow included:
 - GeoPandas
 - Matplotlib
 
----
+
 
 ## Public Health Impact
 
 This project demonstrates how publicly available maternal health and community-level data can be integrated to support county-level surveillance of preterm birth. While the models are intended for population-level planning rather than individual clinical decision-making, they provide a practical framework for identifying communities that may benefit from targeted maternal health interventions and more informed resource allocation.
 
----
+
 
 ## Author
 
